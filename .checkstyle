@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="true">
+  <local-check-config name="TCSS 305 New Line Format" location="support_files/checkstyle-newline.xml" type="project" description="The braces-on-newlines style for Autumn 2009 TCSS 305.">
+    <additional-data name="protect-config-file" value="true"/>
+  </local-check-config>
+  <local-check-config name="TCSS 305 Same Line Style" location="support_files/checkstyle-sameline.xml" type="project" description="The braces-on-same-line style for Autumn 2009 TCSS 305.">
+    <additional-data name="protect-config-file" value="true"/>
+  </local-check-config>
+  <fileset name="all" enabled="true" check-config-name="TCSS 305 Same Line Style" local="true">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+</fileset-config>
