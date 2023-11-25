@@ -1,7 +1,7 @@
 /*
  * Jesse Morgan <jesterpm@u.washington.edu>
  * 
- * TCSS 305 Ð Autumn 2009
+ * TCSS 305 - Autumn 2009
  * Tetris Project
  * 17 November 2009
  */
